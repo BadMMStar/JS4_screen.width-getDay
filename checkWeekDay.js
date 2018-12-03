@@ -1,7 +1,7 @@
 'use strict'
 function whatDayToday() {
-var brth = new Date();
-var weekDay = brth.getDay();
+var day = new Date();
+var weekDay = day.getDay();
 var choiceStyleFile = document.createElement("link");
 if(weekDay >= 1 && weekDay  < 5) {
     // document.write('<link rel="stylesheet" type="text/css" href="style1.css" />');
